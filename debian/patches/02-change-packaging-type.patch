@@ -1,0 +1,14 @@
+Description: Change the type of Maven packaging from eclipse-plugin to jar
+Author: Emmanuel Bourg <ebourg@apache.org>
+Forwarded: not-needed
+--- a/org.eclipse.sisu.plexus/pom.xml
++++ b/org.eclipse.sisu.plexus/pom.xml
+@@ -21,7 +21,7 @@
+   </parent>
+ 
+   <artifactId>org.eclipse.sisu.plexus</artifactId>
+-  <packaging>eclipse-plugin</packaging>
++  <packaging>jar</packaging>
+ 
+   <!--
+    | Minimum requirements

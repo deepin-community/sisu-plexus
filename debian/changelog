@@ -1,0 +1,78 @@
+sisu-plexus (0.3.4-3) unstable; urgency=medium
+
+  * Removed the unused dependency on libsisu-guice-java
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Wed, 10 Feb 2021 00:13:24 +0100
+
+sisu-plexus (0.3.4-2) unstable; urgency=medium
+
+  * Tightened the dependency on libsisu-inject-java (>= 0.3.4)
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Tue, 19 Jan 2021 19:08:53 +0100
+
+sisu-plexus (0.3.4-1) unstable; urgency=medium
+
+  * New upstream release
+  * Standards-Version updated to 4.5.1
+  * Switch to debhelper level 13
+  * Use salsa.debian.org Vcs-* URLs
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Tue, 19 Jan 2021 11:38:32 +0100
+
+sisu-plexus (0.3.3-3) unstable; urgency=medium
+
+  * Depend on libplexus-classworlds-java instead of libplexus-classworlds2-java
+  * Standards-Version updated to 4.1.1
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Sat, 11 Nov 2017 01:10:14 +0100
+
+sisu-plexus (0.3.3-2) unstable; urgency=medium
+
+  * Fixed the Maven rule for plexus-utils
+  * Depend on libplexus-component-annotations-java
+    instead of libplexus-containers1.5-java
+  * Standards-Version updated to 4.0.0
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Thu, 03 Aug 2017 14:08:24 +0200
+
+sisu-plexus (0.3.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * Build with the DH sequencer instead of CDBS
+  * Standards-Version updated to 3.9.8
+  * Switch to debhelper level 10
+  * Use secure Vcs-* URLs
+  * Fixed the watch file
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Thu, 18 May 2017 18:04:13 +0200
+
+sisu-plexus (0.3.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Sun, 18 Oct 2015 21:44:32 +0200
+
+sisu-plexus (0.3.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add missing Build-Depends on junit4.  (Closes: #796153)
+
+ -- tony mancill <tmancill@debian.org>  Wed, 19 Aug 2015 21:27:10 -0700
+
+sisu-plexus (0.3.1-1) unstable; urgency=medium
+
+  * New upstream release
+    - Removed 03-classworlds-compatibility.patch (fixed upstream)
+    - Refreshed the patches
+    - Tightened the dependency on libsisu-inject-java (>= 0.3.0)
+    - Added a dependency on libosgi-core-java
+  * Renamed the jar installed in /usr/share/java to sisu-plexus.jar
+  * Added the Plexus descriptor (components.xml) in the jar
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Tue, 07 Jul 2015 23:18:02 +0200
+
+sisu-plexus (0.0.0.M5-1) unstable; urgency=medium
+
+  * Initial release (Closes: #763752)
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Fri, 03 Oct 2014 08:09:42 +0200

@@ -1,0 +1,20 @@
+Description: Include the resources in the jar (and most importantly, components.xml, the Plexus components descriptor)
+Author: Emmanuel Bourg <ebourg@apache.org>
+Forwarded: not-needed
+--- a/org.eclipse.sisu.plexus/pom.xml
++++ b/org.eclipse.sisu.plexus/pom.xml
+@@ -97,6 +97,14 @@
+ 
+   <build>
+     <sourceDirectory>src</sourceDirectory>
++    <resources>
++      <resource>
++        <directory>./</directory>
++        <includes>
++          <include>META-INF/**</include>
++        </includes>
++      </resource>
++    </resources>
+     <plugins>
+       <plugin>
+         <groupId>org.codehaus.mojo</groupId>

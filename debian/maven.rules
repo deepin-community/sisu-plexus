@@ -1,0 +1,10 @@
+
+s/com.google.code.google-collections/com.google.guava/ s/google-collect/guava/ s/jar/bundle/ s/.*/debian/ * *
+s/com.google.collections/com.google.guava/ s/google-collections/guava/ s/jar/bundle/ s/.*/debian/ * *
+com.google.guava guava bundle s/.*/debian/ * *
+com.google.guava guava s/jar/bundle/ s/.*/debian/ * *
+junit junit jar s/4\..*/4.x/ * *
+org.codehaus.plexus plexus-component-annotations jar s/.*/1.5.5/ * *
+org.codehaus.plexus plexus-utils jar s/.*/2.x/ * *
+org.eclipse.sisu org.eclipse.sisu.plexus eclipse-plugin s/.*/debian/ * *
+org.eclipse.sisu sisu-plexus pom s/.*/debian/ * *

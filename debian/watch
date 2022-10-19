@@ -1,0 +1,2 @@
+version=3
+http://git.eclipse.org/c/sisu/org.eclipse.sisu.plexus.git/refs/ .*/.*(?:milestones|releases)/(.*).tar.gz debian debian/orig-tar.sh

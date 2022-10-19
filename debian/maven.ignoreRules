@@ -1,0 +1,9 @@
+
+org.eclipse.sisu org.eclipse.sisu.plexus.extender eclipse-plugin * * *
+org.eclipse.sisu org.eclipse.sisu.plexus.site eclipse-repository * * *
+org.eclipse.sisu org.eclipse.sisu.plexus.tests jar * * *
+org.apache.maven.plugins maven-enforcer-plugin * * * *
+org.codehaus.mojo animal-sniffer-maven-plugin * * * *
+org.eclipse.tycho target-platform-configuration * * * *
+org.eclipse.tycho tycho-maven-plugin * * * *
+org.eclipse.tycho tycho-source-plugin * * * *

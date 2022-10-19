@@ -1,0 +1,33 @@
+Source: sisu-plexus
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ default-jdk,
+ junit4,
+ libbuild-helper-maven-plugin-java,
+ libcdi-api-java,
+ libguava-java,
+ libosgi-core-java,
+ libplexus-classworlds-java (>= 2.5.2),
+ libplexus-component-annotations-java,
+ libplexus-utils2-java (>= 2.0.5),
+ libsisu-inject-java (>= 0.3.4),
+ maven-debian-helper (>= 2.1)
+Standards-Version: 4.5.1
+Vcs-Git: https://salsa.debian.org/java-team/sisu-plexus.git
+Vcs-Browser: https://salsa.debian.org/java-team/sisu-plexus
+Homepage: http://www.eclipse.org/sisu/
+
+Package: libsisu-plexus-java
+Architecture: all
+Depends: ${maven:Depends}, ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: Plexus adapter for the Sisu dependency injection container
+ Sisu is a modular JSR330 dependency injection container for Java that supports
+ classpath scanning, auto-binding, and dynamic auto-wiring.
+ .
+ Sisu Plexus provides a replacement Plexus container (i.e. the dependency
+ injection container used in Maven 2.x) that builds on top of the JSR330 core.

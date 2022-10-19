@@ -1,0 +1,18 @@
+Description: Add the missing dependencies provided by Tycho
+Author: Emmanuel Bourg <ebourg@apache.org>
+Forwarded: not-needed
+--- a/org.eclipse.sisu.plexus/pom.xml
++++ b/org.eclipse.sisu.plexus/pom.xml
+@@ -59,6 +59,12 @@
+       </exclusions>
+     </dependency>
+     <dependency>
++      <groupId>org.osgi</groupId>
++      <artifactId>org.osgi.core</artifactId>
++      <version>4.2.0</version>
++      <scope>provided</scope>
++    </dependency>
++    <dependency>
+       <groupId>org.eclipse.sisu</groupId>
+       <artifactId>org.eclipse.sisu.inject</artifactId>
+       <version>${project.version}</version>
